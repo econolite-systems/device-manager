@@ -1,0 +1,4 @@
+apiVersion: v1
+description: ODE Device Manager Config Request Service
+name: "ode-dm-config-request-service"
+version: 0.1.0

@@ -1,0 +1,13 @@
+odeDmConfigRequestService:
+  name: ode-dm-config-request-service
+  service:
+    port: 80
+  kafka:
+    groupid: ""
+  ingress:
+    host: api.mound-rd.cosysdev.com
+  probes:
+    enabled: false
+  imageRepository: cosysdev.azurecr.io/ode-dm-config-request-service
+  resources: {}
+  
